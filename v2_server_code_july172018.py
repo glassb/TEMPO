@@ -1,10 +1,4 @@
 """
-Middlebury Conservation Psychology
-Written by Thomas Wentworth
-For the continued feedback on electric consumption in the Middlebury Townhouses.
-Could be repurposed for any feedback on campus, if Temperature Controls of Vermont
-    exports the data.
-
 Created 6/24/2018
 Last Updated 7/17/2018
 """
