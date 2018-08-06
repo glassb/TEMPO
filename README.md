@@ -12,8 +12,9 @@ Hardware components reside within the kitchen area of each Townhouse Suite. The 
 
 We have the ability to remotely access and alter programs written on the microcomputers through VNC viewer (connects over WIFI), as well as access to each microcomputers’ command line (shell scripting capabilities). With the permission of Facilities, we can edit code and turn the computers on/off. We also have access to WebCTRL, Middlebury’s main internal monitoring system, that gives us access to Townhouse energy data (the data behind your light feedback system). Likewise, the proxy database has been recording and storing electricity data for all twelve townhouses since July 1st, 2018. We have access to this database as well. 
 
+<br><br>
 
-<b> Query.py, what is it, and how to use it</b>
+<h2> Query.py, what is it, and how to use it</h2>
 
 We are in the process of creating a website to host live-updating energy data, but in the meantime occupants and those with interest can run the program <b>Query.py</b> through the Terminal window on a Linux/Unix operating system to see numerical data from the townhouses, including Aggregate average kW consumption, individual suite current consumption and 7-day runnning average consumption. <b> If you are familiar with Shell Scripting with Python, download Query.py and run it in the terminal window. If you are unfamiliar with the above steps, directions to use Query.py are as follows: </b>
 
