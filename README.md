@@ -1,10 +1,11 @@
 # TEMPO
-Energy Monitoring System for Townhouse Suites on Middlebury College's Campus
+<b>Energy Monitoring System for Townhouse Suites on Middlebury College's Campus</b>
 
 TEMPO (Townhouse Energy Monitoring Project) was initiated in Fall of 2016 by Thomas Wentworth (Alumnus ‘18), and is currently lead by Benjamin Glass. The main project goal is to explore the effects of real-time visual feedback on residential energy consumption (specifically electrical energy). This monitoring project builds on a successful study conducted in the Middlebury Hadley dorm complex in 2014 (Karp et al., 2015) as well as informal interviews with students regarding energy consumption in the Townhouses in the spring of 2017. The project has received Institutional Review Board (IRB) approval, is supported by Middlebury College Facilities and the Office of Sustainability Integration, and is funded by Efficiency Vermont, Middlebury Facilities, Middlebury Environmental Council, and Middlebury’s Senior Research Project Supplement.
 
+<br><br>
 
-IMPLEMENTATION
+<h2>Implementation</h2>
 
 A 2’ LED strip has been installed in each of the twelve Middlebury College townhouse suites that each uses a single-board computer to query suite-specific electricity consumption data from a Middlebury Facilities’ database that updates every minute (Figure 1). The microcomputer grabs this numerical data and runs it through a simple functional program that compares the suite’s current kilowatt consumption with the average kilowatt consumption of the previous 7-days. The algorithm then outputs LED light on the red-green spectrum. A green glowing light represents less consumption than average while a red light represents a large increase in consumption. Each light is scheduled to run between 7am and 11pm. 
 
