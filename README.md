@@ -11,3 +11,23 @@ A 2’ LED strip has been installed in each of the twelve Middlebury College tow
 Hardware components reside within the kitchen area of each Townhouse Suite. The microcomputer is encased inside the cabinet above the Townhouse fridges (Figure 2). There is a single tamper-proof screw on each controller, and we (Thomas and Ben) have the associated screwdriver for access. The components are delicate; closest attention should be paid to the LED rod itself, as it is the hardware piece that is most exposed to human activity. See Figure 3 for hardware schematic.
 
 We have the ability to remotely access and alter programs written on the microcomputers through VNC viewer (connects over WIFI), as well as access to each microcomputers’ command line (shell scripting capabilities). With the permission of Facilities, we can edit code and turn the computers on/off. We also have access to WebCTRL, Middlebury’s main internal monitoring system, that gives us access to Townhouse energy data (the data behind your light feedback system). Likewise, the proxy database has been recording and storing electricity data for all twelve townhouses since July 1st, 2018. We have access to this database as well. 
+
+
+<b> Query.py, what is it, and how to use it</b>
+
+We are in the process of creating a website to host live-updating energy data, but in the meantime occupants and those with interest can run the program <b>Query.py</b> through the Terminal window on a Linux/Unix operating system to see numerical data from the townhouses, including Aggregate average kW consumption, individual suite current consumption and 7-day runnning average consumption. <b> If you are familiar with Shell Scripting with Python, download Query.py and run it in the terminal window. If you are unfamiliar with the above steps, directions to use Query.py are as follows: </b>
+
+Macintosh:
+
+1. Install Python 3
+2. Download Query.py and locate it on your Desktop
+2. Open your terminal application under "Other applications"
+3. When the terminal opens, it will have a "$" symbol. Type "cd Desktop" and press enter
+4. Type "python Query.py" and press enter.
+
+Windows:
+
+  Coming soon
+  
+  
+You will be able to see energy data on the terminal screen. 
