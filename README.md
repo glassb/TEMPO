@@ -3,7 +3,7 @@
 
 TEMPO (Townhouse Energy Monitoring Project) was initiated in Fall of 2016 by Thomas Wentworth (Alumnus ‘18), and is currently lead by Benjamin Glass. The main project goal is to explore the effects of real-time visual feedback on residential energy consumption (specifically electrical energy). This monitoring project builds on a successful study conducted in the Middlebury Hadley dorm complex in 2014 (Karp et al., 2015) as well as informal interviews with students regarding energy consumption in the Townhouses in the spring of 2017. The project has received Institutional Review Board (IRB) approval, is supported by Middlebury College Facilities and the Office of Sustainability Integration, and is funded by Efficiency Vermont, Middlebury Facilities, Middlebury Environmental Council, and Middlebury’s Senior Research Project Supplement.
 
-<br><br>
+<br>
 
 <h2>Implementation</h2>
 
@@ -13,13 +13,13 @@ Hardware components reside within the kitchen area of each Townhouse Suite. The 
 
 We have the ability to remotely access and alter programs written on the microcomputers through VNC viewer (connects over WIFI), as well as access to each microcomputers’ command line (shell scripting capabilities). With the permission of Facilities, we can edit code and turn the computers on/off. We also have access to WebCTRL, Middlebury’s main internal monitoring system, that gives us access to Townhouse energy data (the data behind your light feedback system). Likewise, the proxy database has been recording and storing electricity data for all twelve townhouses since July 1st, 2018. We have access to this database as well. 
 
-<br><br>
+<br>
 
-<h2> Query.py, what is it, and how to use it</h2>
+<h2> Query.py: What it is, and How to Use it</h2>
 
-We are in the process of creating a website to host live-updating energy data, but in the meantime occupants and those with interest can run the program <b>Query.py</b> through the Terminal window on a Linux/Unix operating system to see numerical data from the townhouses, including Aggregate average kW consumption, individual suite current consumption and 7-day runnning average consumption. <b> If you are familiar with Shell Scripting with Python, download Query.py and run it in the terminal window. If you are unfamiliar with the above steps, directions to use Query.py are as follows: </b>
+We are in the process of creating a website to host live-updating energy data, but in the meantime occupants and those with interest can run the program <b>Query.py</b> through the Terminal window on a Linux/Unix operating system to see numerical data from the townhouses, including Aggregate average kW consumption, individual suite current consumption and 7-day runnning average consumption. <b> If you are familiar with Shell Scripting with Python, download Query.py and run it in the terminal window. If you are unfamiliar with the above steps, directions to use Query.py are as follows: </b> <br>
 
-Macintosh:
+<b>Macintosh:</b>
 
 1. Install Python 3
 2. Download Query.py and locate it on your Desktop
@@ -27,7 +27,7 @@ Macintosh:
 3. When the terminal opens, it will have a "$" symbol. Type "cd Desktop" and press enter
 4. Type "python Query.py" and press enter.
 
-Windows:
+<b>Windows:</b>
 
   Coming soon
   
