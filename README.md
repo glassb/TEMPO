@@ -17,7 +17,7 @@ We have the ability to remotely access and alter programs written on the microco
 
 <h2> Query.py: What it is, and How to Use it</h2>
 
-We are in the process of creating a website to host live-updating energy data, but in the meantime occupants and those with interest can run the program <b>Query.py</b> through the Terminal window on a Linux/Unix operating system to see numerical data from the townhouses, including Aggregate average kW consumption, individual suite current consumption and 7-day runnning average consumption. <b> If you are familiar with Shell Scripting with Python, download Query.py and run it in the terminal window. If you are unfamiliar with the above steps, directions to use Query.py are as follows: </b> <br>
+We are in the process of creating a website to host live-updating energy data, but in the meantime occupants and those with interest can run the program <b>Query.py</b> through the Terminal window on a Linux/Unix operating system to see numerical data from the townhouses, including Aggregate average kW consumption, individual suite current consumption and 7-day runnning average consumption. <b> If you are familiar with Shell Scripting with Python, download Query.py and run it in the terminal window. If you are unfamiliar with the above steps, directions to use Query.py are as follows: </b> <br><br>
 
 <b>Macintosh:</b>
 
@@ -27,6 +27,7 @@ We are in the process of creating a website to host live-updating energy data, b
 3. When the terminal opens, it will have a "$" symbol. Type "cd Desktop" and press enter
 4. Type "python Query.py" and press enter.
 
+<br>
 <b>Windows:</b>
 
   Coming soon
