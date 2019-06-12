@@ -24,19 +24,25 @@ We are in the process of creating a website to host live-updating energy data, b
 1. Install Python 3 (https://www.python.org)
 2. Download Query.py and drag it to your Desktop.
 2. Open Terminal (an application preset on your computer; icon is a black box)
-3. When the terminal opens, it will say 
+3. When the terminal opens, the first line will show
 ```
-username$
+computer_name:~ username$
 ```
 
-symbol. Type 
+with a cursor in front of it. Type
 
 ```
 cd Desktop
 ```
 
-and press enter (Basic Terminal Commands: https://www.dummies.com/computers/macs/mac-operating-systems/how-to-use-basic-unix-commands-to-work-in-terminal-on-your-mac/)
-4. Type "python Query.py" and press enter.
+and press enter (Basic Terminal Commands: https://www.dummies.com/computers/macs/mac-operating-systems/how-to-use-basic-unix-commands-to-work-in-terminal-on-your-mac/).
+4. Type
+
+```
+python Query.py
+```
+and press enter.
+
 
 <br>
 <b>Windows:</b>
