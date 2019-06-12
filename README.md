@@ -39,7 +39,7 @@ and press enter (Basic Terminal Commands: https://www.dummies.com/computers/macs
 
 <br>
 
-<b> 5.</b>A new line will show
+<b> 5.</b> A new line will show
 ```
 computer_name:Desktop username$
 ```
