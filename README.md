@@ -51,11 +51,6 @@ python Query.py
 ```
 and press enter.
 
-
-<br>
-<b>Windows:</b>
-
-  Coming soon
   
   
 You will be able to see energy data on the terminal screen. 
