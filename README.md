@@ -19,12 +19,12 @@ We have the ability to remotely access and alter programs written on the microco
 
 We are in the process of creating a website to host live-updating energy data, but in the meantime occupants and those with interest can run the program <b>Query.py</b> through the Terminal window on a Linux/Unix operating system to see numerical data from the townhouses, including Aggregate average kW consumption, individual suite current consumption and 7-day runnning average consumption. <b> If you are familiar with Shell Scripting with Python, download Query.py and run it in the terminal window. If you are unfamiliar with the above steps, directions to use Query.py are as follows: </b> <br><br>
 
-<b>Macintosh:</b>
+<b>Macintosh and Windows:</b>
 
-1. Install Python 3 (https://www.python.org)
-2. Download Query.py and drag it to your Desktop.
-3. Open Terminal (an application preset on your computer; icon is a black box)
-4. When the terminal opens, the first line will show
+<b>1.</b> Install Python 3 (https://www.python.org)
+<b>2.</b> Download Query.py and drag it to your Desktop.
+<b>3.</b>Open Terminal (an application preset on your computer; icon is a black box)
+<b>4.</b>When the terminal opens, the first line will show
 ```
 computer_name:~ username$
 ```
@@ -37,7 +37,9 @@ cd Desktop
 
 and press enter (Basic Terminal Commands: https://www.dummies.com/computers/macs/mac-operating-systems/how-to-use-basic-unix-commands-to-work-in-terminal-on-your-mac/).
 
-5. A new line will show
+<br>
+
+<b>5.</b>A new line will show
 ```
 computer_name:Desktop username$
 ```
