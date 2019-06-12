@@ -21,10 +21,10 @@ We are in the process of creating a website to host live-updating energy data, b
 
 <b>Macintosh and Windows:</b>
 
-<b>1.</b> Install Python 3 (https://www.python.org)
-<b>2.</b> Download Query.py and drag it to your Desktop.
-<b>3.</b>Open Terminal (an application preset on your computer; icon is a black box)
-<b>4.</b>When the terminal opens, the first line will show
+<b>1.</b> Install Python 3 (https://www.python.org)<br>
+<b>2.</b> Download Query.py and drag it to your Desktop.<br>
+<b>3.</b> Open Terminal (an application preset on your computer; icon is a black box)<br>
+<b>4.</b> When the terminal opens, the first line will show
 ```
 computer_name:~ username$
 ```
@@ -39,7 +39,7 @@ and press enter (Basic Terminal Commands: https://www.dummies.com/computers/macs
 
 <br>
 
-<b>5.</b>A new line will show
+<b> 5.</b>A new line will show
 ```
 computer_name:Desktop username$
 ```
